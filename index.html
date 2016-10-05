@@ -13,7 +13,7 @@
 <body>
   <!-- Content goes here. -->
 <div class="container">
-  <div class="row">
+  <div class="row well">
     <div class="col-sm-12">
       <h1>Order Progress</h1>
       <div class="progress">
@@ -29,7 +29,9 @@
     <!-- <input type="hidden" name="_next" value="http://localhost:8080/thanks.html"> -->
     <div class="container">
       <div class="row">
-        <div class="col-sm-6">
+        <div class="panel panel-info">
+          <div class="panel-body bg-info">
+            <div class="col-sm-6">
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h3 class="panel-title">Contact Information</h3>
@@ -54,8 +56,7 @@
             </div>
           </div>
         </div>
-        <!-- card type, card number, CVV code, expiration month and year -->
-        <div class="col-sm-6">
+            <div class="col-sm-6">
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h3 class="panel-title">Payment Information</h3>
@@ -110,9 +111,13 @@
             </div>
           </div>
         </div>
+          </div>
+        </div>
       </div>
       <div class="row">
-        <div class="col-sm-6">
+        <div class="panel panel-info">
+          <div class="panel-body bg-info">
+            <div class="col-sm-6">
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h3 class="panel-title">Shipping Address</h3>
@@ -205,7 +210,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6">
+            <div class="col-sm-6">
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h3 class="panel-title">Billing Address</h3>
@@ -304,6 +309,8 @@
               <input type="text" class="form-control" id="billing_zip" name="billing_zip" placeholder="99999-9999" maxlength="10" required>
             </div>
             </div>
+          </div>
+        </div>
           </div>
         </div>
       </div>
