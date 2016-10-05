@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 15px;
+}
+
+.panel-gold {
+    border-color: gold;
+}
+
+.panel-gold > .panel-heading {
+    color: black;
+    background-color: rgb(224, 200, 38);
+    border-color: gold;
+}
